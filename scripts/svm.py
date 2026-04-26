@@ -9,7 +9,7 @@ import numpy as np
 # Hyperparams
 # =========================
 C_VALUES = np.logspace(-2, 2, 6)
-KERNEL = 'rbf'   # try 'rbf' after
+KERNEL = 'rbf' 
 GAMMA_VALUES = ['scale', 0.1, 0.01, 0.001]
 # =========================
 # LOAD
